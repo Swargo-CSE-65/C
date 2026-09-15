@@ -1,13 +1,18 @@
-#include <stdio.h>
+Number Guessing Game
 
-int main() {
-    int a, b;
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
+This is a simple Number Guessing Game made using C programming.
 
-    printf("sum=%d\n", a + b);
-    printf("Difference=%d\n", a - b);
-    printf("product=%d\n", a * b);
+Features
 
-    return 0;
-}
+* Generates a random number
+* Takes user input
+* Checks the user's guess
+* Shows whether the guess is correct or not
+
+Language
+
+C
+
+Author
+
+Swargo-CSE-65
